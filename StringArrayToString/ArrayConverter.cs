@@ -30,7 +30,7 @@ namespace StringArrayToString
 
         public string UsingStringJoin(string[] array)
         {
-            return string.Join("", array);
+            return string.Join(string.Empty, array);
         }
 
         public string UsingStringConcat(string[] array)
